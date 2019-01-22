@@ -3,12 +3,12 @@
 
 # Library of Common Data Structures and Algorithms
 
-This repo provides a library of various commonly used data structures and algorithms. This is useful for junior developers (such as myself) to look and play around with working code instead of pseudocode, as a learning experience. This library is also useful for practical scenarios in which one quickly needs a data structure / algorithm and doesn't want to bother implementing it by hand.
+This repo provides a library of various commonly used data structures and algorithms. This library is useful for practical scenarios in which one quickly needs a data structure / algorithm and doesn't want to bother implementing it by hand. This is also useful for junior developers (such as myself) to look and play around with real, working code instead of pseudocode. The devil is in the details! 
 
-Data structures like Queues/Stacks, Heaps, LinkedLists, HashTables/HashSets, etc. either probably exist as an already built-in library, or are trivial to implement and are thus exempted from this library.
+Special focus was given to data structures that are "annoying" to implement by hand, or in other words require some minimum threshold of thinking to implement correctly. Data structures like Queues/Stacks, Heaps, LinkedLists, HashTables/HashSets, etc. are **exempted** from this library, since either they exist as an already built-in library (most modern languages), or are trivial to implement.
 
 ## Performance: 
-  The functions and data-structures provided have been only designed to meet asymptotic runtime and space requirements as documented. **NO** special effort was made to optimize implementation, so performance may vary.  
+  The functions and data-structures provided have been only designed to meet _asymptotic_ runtime and space requirements, as documented within the corresponding source file. Beyond that, **NO** special effort was made to optimize constant factors, so performance may vary.  
 
 Supported Languages:
   - Python3
