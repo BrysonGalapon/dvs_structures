@@ -14,41 +14,44 @@ Supported Languages:
   - Python3
 
 ## Data Structures:
-  - Trees
+  - Trees\*
     - Balanced Binary Search Tree (BST)
     - Segment Tree
     - Trie
 
-  - Union-Find
+  - Union-Find\*
 
   - Van Embde Boas
 
 ## Algorithms:
-  - Graphs
+  - Graphs\*
     - Breadth First Search (BFS)
+      1. Iterative
+      2. Recursive
     - Depth First Search (DFS)
+      1. Iterative
+      2. Recursive
+    - Topological Sort
+      1. Iterative
+      2. Recursive
 
-  - Trees
-    - Binary Tree Traversals
-      1. In Order
-      2. Pre Order
-      3. Post Order
-
+  - Trees\*
     - Euler Tour
 
-  - Sorting:
+  - Sorting\*
     - Merge Sort
     - Quick Sort
     - Counting Sort
     - Radix Sort
 
-  - Range Minimum Query (RMQ)
-  - Z algorithm
+  - Range Minimum Query (RMQ)\*
+  - Z algorithm\*
+
+### \* = In progress, not yet fully implemented/tested
 
 ## Testing Framework:
   - unittest
     - Invariant:
       All test file names must be in the format [srcFileName]Tests.py, and the test path should be the same relative to its corresponding src path. For example, if a src file named 'myFile.py' has path 'src/foo/bar/myFile.py', its corresponding test file must have the path 'tests/foo/bar/myFileTests.py' 
     - If file myFileA.py depends on another file myFileB.py (e.g. myFileA.py calls "import myFileB"), then if myFileA.py has a test file, myFileB.py **must also** have a test file, even if that test file is empty (contains no unit tests).
-
 
