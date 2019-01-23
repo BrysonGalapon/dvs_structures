@@ -16,6 +16,7 @@ Supported Languages:
 ## Data Structures:
   - Trees\*
     - Balanced Binary Search Tree (BST)
+    - Splay Tree (Superior BST Implementation)
     - Segment Tree
     - Trie
 
