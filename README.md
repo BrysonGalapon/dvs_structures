@@ -53,8 +53,7 @@ Supported Languages:
 
 ## Testing Framework:
   - unittest
-    - Invariant:
-      All test file names must be in the format [srcFileName]Tests.py, and the test path should be the same relative to its corresponding src path. For example, if a src file named 'myFile.py' has path 'src/foo/bar/myFile.py', its corresponding test file must have the path 'tests/foo/bar/myFileTests.py' 
+    - All test file names must be in the format [srcFileName]Tests.py, and the test path should be the same relative to its corresponding src path. For example, if a src file named 'myFile.py' has path 'src/foo/bar/myFile.py', its corresponding test file must have the path 'tests/foo/bar/myFileTests.py' 
     - If file myFileA.py depends on another file myFileB.py (e.g. myFileA.py calls "import myFileB"), then if myFileA.py has a test file, myFileB.py **must also** have a test file, even if that test file is empty (contains no unit tests).
 
 ## Special Notes:
