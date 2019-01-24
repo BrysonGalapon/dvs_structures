@@ -2,7 +2,7 @@ from math import sqrt
 from math import log
 
 """
-Van-Embde-Boas datastructure. Solves the predecessor/successor problem.
+Python implementation of Van-Embde-Boas datastructure. Solves the predecessor/successor problem.
 
 For explanation of the following runtimes and space complexities, as well as 
     motivation for the DS and method implementations, see:
