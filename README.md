@@ -22,7 +22,7 @@ Supported Languages:
     - Segment Tree
     - Trie
 
-  - Union-Find\*
+  - Union-Find
 
   - Van Embde Boas
 
